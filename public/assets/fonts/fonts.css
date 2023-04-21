@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fraunces144ptSemiBold';
+    src: url('./fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ManropeRegular';
+    src: url('./manrope/static/Manrope-Regular.ttf') format('truetype');
+}
