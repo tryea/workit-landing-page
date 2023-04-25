@@ -2,6 +2,8 @@ interface TextStyles {
     fontFamily?: string;
     fontSize?: string;
     lineSpacing?: string;
+    marginBlockStart?: number | string;
+    marginBlockEnd?: number | string;
 }
 
 type TypographyKeys = 'HeadingLarge' | 'HeadingMedium' | 'HeadingSmall' | 'Body';
@@ -22,7 +24,9 @@ export const typography: Typography = {
     HeadingLarge: {
         fontFamily: 'Fraunces144ptSemiBold',
         fontSize: '80px',
-        lineSpacing: '80px'
+        lineSpacing: '80px',
+        marginBlockStart: 0,
+        marginBlockEnd: 0
 
     },
     HeadingMedium: {

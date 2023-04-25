@@ -1,48 +1,38 @@
 import './App.css'
+import CallToActionPhoneImage from './components/CallToActionPhoneImage';
+import CallToActionSpiralLeft from './components/CallToActionSpiralLeft';
+import CallToActionSpiralRight from './components/CallToActionSpiralRight';
+import SectionCallToAction from './components/SectionCallToAction';
 import SectionInfoProductItem from './components/SectionInfoProductItem';
-import { colors } from './util/styles';
-import LogoDark from '/assets/images/logo-dark.svg'
-import LogoLight from '/assets/images/logo-light.svg'
+import TopNavigationBar from './components/TopNavigationBar';
+import { colors, typography } from './util/styles';
+
 
 function App() {
+
   return (
     <>
       <div className='app'>
         <header
           style={{
-            backgroundColor: colors.DarkPurple,
+            backgroundColor: colors.GhostWhite,
             display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            alignItems: 'center',
             padding: '0 165px',
             height: '100vh',
+            flexDirection: 'column',
+            maxWidth: '100vw',
+            // clipPath: `url('/assets/images/bottomCurve.svg')`,
+            backgroundImage: `url('/assets/images/bottomCurve.svg')`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'bottom center',
+            backgroundSize: '100% auto'
           }}
         >
-          <div
-            className='headerNavigation'
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              flexDirection: 'row',
-              gap: '1em'
-            }}
-          >
-            <div
-              className='headerNavigationItem'
-
-            >
-              <img src={LogoLight} style={{
-                height: '1em',
-                padding: '1.5em'
-              }}
-              />
-            </div>
-            <div className='headerNavigationItem'>
-              <p style={{ color: colors.White }}>Apply for access</p>
-            </div>
-          </div>
-
+          <TopNavigationBar />
+          <SectionCallToAction />
+          <CallToActionSpiralLeft />
+          <CallToActionSpiralRight />
+          <CallToActionPhoneImage />
         </header>
         <div
           className='SectionInfoProduct'
@@ -53,6 +43,7 @@ function App() {
             gap: '25px',
             padding: '0 165px',
             height: '131.5vh',
+            marginTop: '-31.5vh',
             alignItems: 'center',
           }}
         >

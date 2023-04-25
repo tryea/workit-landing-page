@@ -7,3 +7,8 @@
     font-family: 'ManropeRegular';
     src: url('./manrope/static/Manrope-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Manrope-VariableFontWeight';
+    src: url('./manrope/Manrope-VariableFontWeight.ttf') format('truetype');
+}
