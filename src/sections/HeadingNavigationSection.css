@@ -1,6 +1,6 @@
 #header-navigation {
     height: 100px;
-    width: 100vw;
+    max-width: 100vw;
     background-color: var(--primary-background-color);
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
     font-size: 18px;
     font-family: var(--Body-font-family);
     color: var(--primary-text-color);
-    line-height: 32px;
+    line-height: 36px;
     user-select: none;
 }
 

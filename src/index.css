@@ -67,3 +67,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body {
+  max-width: 100vw;
+}
+
+.heading-large {
+  position: relative;
+  font-family: Fraunces144ptSemiBold;
+  font-size: 80px;
+  line-height: 85px;
+}

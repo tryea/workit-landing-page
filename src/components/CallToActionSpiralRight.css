@@ -1,0 +1,12 @@
+.call-to-action-spiral-right-container {
+    position: absolute;
+    top: 350px;
+    right: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.call-to-action-spiral-right {
+    position: relative;
+    right: -40px;
+}

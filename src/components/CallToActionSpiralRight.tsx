@@ -1,15 +1,11 @@
+import './CallToActionSpiralRight.css'
 
 const CallToActionSpiralRight = () => {
     return (
-        <div
-            style={{
-                position: 'absolute',
-                right: '-39px',
-                top: '350px',
-                zIndex: 2,
-            }}
-        >
-            <img src="/assets/images/spiral-right.svg" alt="spiral-right" />
+        <div className="call-to-action-spiral-right-container" >
+            <div className="call-to-action-spiral-right" >
+                <img src="/assets/images/spiral-right.svg" alt="spiral-right" />
+            </div>
         </div>
     )
 }

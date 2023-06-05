@@ -1,32 +1,17 @@
 import { colors, typography } from "../util/styles"
-
+import './SectionCallToAction.css'
 
 const SectionCallToAction = () => {
     return (
-        <div
-            style={{
-                display: 'flex',
-                flex: 1,
-                color: colors.White,
-                flexDirection: 'column',
-                marginTop: '54px'
-            }}
-        >
-            <div style={{ display: 'flex', gap: '15px', flexDirection: 'row', justifyContent: 'center' }}>
-                <h1 style={{ ...typography.HeadingLarge }}>Data</h1>
-                <h1 style={{
-                    ...typography.HeadingLarge,
-                    textDecoration: 'underline',
-                    textDecorationColor: colors.Eucaplyptus,
-                    textDecorationStyle: 'solid',
-                    textUnderlineOffset: '10px',
-                    textDecorationThickness: '3px'
-                }}>tailored</h1>
-                <h1 style={{ ...typography.HeadingLarge, }}>to</h1>
+        <div id='section-call-to-action'>
+            <div className="welcome-text-wrapper">
+                <h1 className="heading-large">Data</h1>
+                <h1 className='heading-large text-underline'>tailored</h1>
+                <h1 className="heading-large">to</h1>
             </div>
-            <div style={{ display: 'flex', gap: '15px', flexDirection: 'row', justifyContent: 'center' }}>
-                <h1 style={{ ...typography.HeadingLarge, }}>your</h1>
-                <h1 style={{ ...typography.HeadingLarge, }}>needs.</h1>
+            <div className="welcome-text-wrapper">
+                <h1 className="heading-large">your</h1>
+                <h1 className="heading-large">needs.</h1>
             </div>
             <div
                 style={{
