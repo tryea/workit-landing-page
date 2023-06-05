@@ -1,0 +1,42 @@
+#header-navigation {
+    height: 100px;
+    width: 100vw;
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.header-item {
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-wrapper {}
+
+.cta-button {}
+
+.cta-navigation {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-family: var(--Body-font-family);
+    color: var(--primary-text-color);
+    line-height: 32px;
+    user-select: none;
+}
+
+.cta-navigation::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--button-background-color);
+}
