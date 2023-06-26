@@ -1,0 +1,8 @@
+.founderIntroductionSection {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 100px;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: var(--white);
+}

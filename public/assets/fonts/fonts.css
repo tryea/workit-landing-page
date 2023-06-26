@@ -9,6 +9,12 @@
 }
 
 @font-face {
+    font-family: 'ManropeBold';
+    src: url('./manrope/static/Manrope') format('truetype');
+}
+
+
+@font-face {
     font-family: 'Manrope-VariableFontWeight';
     src: url('./manrope/Manrope-VariableFontWeight.ttf') format('truetype');
 }

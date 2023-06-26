@@ -4,6 +4,7 @@ import SectionCallToAction from '../components/SectionCallToAction'
 import CallToActionSpiralLeft from '../components/CallToActionSpiralLeft'
 import CallToActionSpiralRight from '../components/CallToActionSpiralRight'
 import CallToActionPhoneImage from '../components/CallToActionPhoneImage'
+import BottomCurveSVG from '../components/BottomCurveSVG'
 
 const WelcomeSection = () => {
     return (
@@ -11,7 +12,10 @@ const WelcomeSection = () => {
             <SectionCallToAction />
             <CallToActionSpiralLeft />
             <CallToActionSpiralRight />
-            {/* <CallToActionPhoneImage /> */}
+            <CallToActionPhoneImage />
+            <div className='bottomCurve'>
+                <BottomCurveSVG color='#FCF8FF' />
+            </div>
         </div>
     )
 }

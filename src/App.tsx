@@ -1,5 +1,7 @@
 import './App.css'
+import FounderIntroductionSection from './sections/FounderIntroductionSection'
 import HeadingNavigationSection from './sections/HeadingNavigationSection'
+import ProductDescriptionSection from './sections/ProductDescriptionSection'
 import WelcomeSection from './sections/WelcomeSection'
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
       <HeadingNavigationSection />
       <WelcomeSection />
+      <ProductDescriptionSection />
+      <FounderIntroductionSection />
     </>
   )
 }

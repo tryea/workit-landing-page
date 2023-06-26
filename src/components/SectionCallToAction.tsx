@@ -1,4 +1,4 @@
-import { colors, typography } from "../util/styles"
+import { colors } from "../util/styles"
 import './SectionCallToAction.css'
 
 const SectionCallToAction = () => {

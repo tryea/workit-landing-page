@@ -4,10 +4,14 @@
     display: flex;
     padding: 0 165px;
     flex-direction: column;
-    overflow: hidden;
-    background-image: url('/assets/images/bottomCurve.svg');
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100% auto;
     background-color: var(--primary-background-color);
+}
+
+.bottomCurve {
+    position: absolute;
+    bottom: -14%;
+    left: 0;
+    z-index: 2;
+    height: 7.9%;
+    width: 100%;
 }

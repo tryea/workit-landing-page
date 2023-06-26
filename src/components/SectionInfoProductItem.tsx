@@ -32,8 +32,14 @@ const SectionInfoProductItem = (props: Props) => {
     textAlign: 'center',
   }
 
+  const SectionInfoProductItemStyle: React.CSSProperties = {
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+  }
+
   return (
-    <div className='SectionInfoProductItem'>
+    <div className='SectionInfoProductItem' style={SectionInfoProductItemStyle}>
       <div
         className='SectionInfoProductItemNumber'
         style={{
