@@ -10,6 +10,7 @@
   --white: #FFFFFF;
   --ghost-white: #FCF8FF;
   --eucaplyptus: #44FFA1;
+  --davys-grey: #584D62;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -87,11 +88,4 @@ a {
 
 body {
   max-width: 100vw;
-}
-
-.heading-large {
-  position: relative;
-  font-family: Fraunces144ptSemiBold;
-  font-size: 80px;
-  line-height: 85px;
 }

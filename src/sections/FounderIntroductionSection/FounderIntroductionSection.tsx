@@ -1,4 +1,4 @@
-import FounderPhotoProfile from '../components/FounderPhotoProfile'
+import FounderPhotoProfile from './slice/FounderPhotoProfile'
 import './FounderIntroductionSection.css'
 
 const FounderIntroductionSection = () => {

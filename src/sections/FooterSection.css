@@ -1,0 +1,19 @@
+#footer-section {
+    min-height: 250px;
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+.brand-social-media-icon-section {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.brand-social-media-icon-section .social-media-icons {}

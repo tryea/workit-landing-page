@@ -4,12 +4,13 @@
     font-size: 18px;
     background-color: var(--eucaplyptus);
     color: var(--dark-purple);
-    border: none;
+    border: 1px solid transparent;
+
     padding: 15px 25px;
     cursor: pointer;
-    width: 190px;
     height: 61px;
     margin: 0;
+    transition: all 0.3s ease;
 }
 
 .primary-button:hover {
@@ -17,6 +18,12 @@
     color: var(--eucaplyptus);
     background-color: var(--dark-purple);
 }
+
+.primary-button:active {
+    background-color: #8affc5;
+    color: var(--dark-purple);
+}
+
 
 .secondary-button {
     font-family: 'Manrope', sans-serif;

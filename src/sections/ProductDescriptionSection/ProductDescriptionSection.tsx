@@ -1,5 +1,5 @@
-import BottomCurveSVG from '../components/BottomCurveSVG'
-import SectionInfoProductItem from '../components/SectionInfoProductItem'
+import BottomCurveSVG from '../../components/BottomCurveSVG'
+import SectionInfoProductItem from './slice/SectionInfoProductItem'
 import './ProductDescriptionSection.css'
 
 const ProductDescriptionSection = () => {

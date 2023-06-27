@@ -40,7 +40,7 @@ export const typography: Typography = {
         lineSpacing: '40px'
     },
     Body: {
-        fontFamily: 'ManropeRegular',
+        fontFamily: 'Manrope',
         fontSize: '18px',
         lineSpacing: '32px'
     }

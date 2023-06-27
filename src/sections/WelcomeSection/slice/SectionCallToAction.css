@@ -22,3 +22,11 @@
     height: 3px;
     background-color: var(--button-background-color);
 }
+
+.heading-large {
+    position: relative;
+    font-family: 'Fraunces';
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+}

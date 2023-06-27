@@ -1,0 +1,50 @@
+.founderPhotoProfileWrapper {
+    position: relative;
+    width: 477px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.founderPhotoProfileWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.founderQuote {
+    position: absolute;
+    top: 36%;
+    left: 80%;
+    width: 730px;
+    height: 413px;
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 64px;
+}
+
+.founderQuote h1 {
+    font-family: 'Fraunces';
+    margin-bottom: 28px;
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.founderQuote p {
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.founderQuoteSpiralLeft {
+    position: absolute;
+    width: 173px;
+    height: 137px;
+    right: 73px;
+    bottom: -32px;
+    zIndex: 2;
+    overflow: hidden;
+}

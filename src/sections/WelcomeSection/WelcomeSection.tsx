@@ -1,10 +1,10 @@
 import './WelcomeSection.css'
 
-import SectionCallToAction from '../components/SectionCallToAction'
-import CallToActionSpiralLeft from '../components/CallToActionSpiralLeft'
-import CallToActionSpiralRight from '../components/CallToActionSpiralRight'
-import CallToActionPhoneImage from '../components/CallToActionPhoneImage'
-import BottomCurveSVG from '../components/BottomCurveSVG'
+import SectionCallToAction from './slice/SectionCallToAction'
+import CallToActionSpiralLeft from './slice/CallToActionSpiralLeft'
+import CallToActionSpiralRight from './slice/CallToActionSpiralRight'
+import CallToActionPhoneImage from './slice/CallToActionPhoneImage'
+import BottomCurveSVG from '../../components/BottomCurveSVG'
 
 const WelcomeSection = () => {
     return (

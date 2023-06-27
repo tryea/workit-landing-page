@@ -1,4 +1,5 @@
-import { colors } from "../util/styles"
+import Button from '../../../components/Common/Button/Button'
+import { colors } from '../../../util/styles'
 import './SectionCallToAction.css'
 
 const SectionCallToAction = () => {
@@ -21,15 +22,7 @@ const SectionCallToAction = () => {
                     flexDirection: 'row'
                 }}
             >
-                <button
-                    style={{
-                        backgroundColor: colors.Eucaplyptus,
-                        height: '61px',
-                        width: '161px',
-                        borderRadius: 0
-                    }}>
-                    Learn More
-                </button>
+                <Button title='Learn more' type='Primary' />
             </div>
         </div>
     )
