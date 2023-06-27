@@ -10,14 +10,9 @@ type Props = {
 
 const SectionInfoProductItem = (props: Props) => {
 
-  const SectionInfoProductItemStyle: React.CSSProperties = {
-    display: 'flex',
-    flex: 1,
-    flexDirection: 'column',
-  }
 
   return (
-    <div className='SectionInfoProductItem' style={SectionInfoProductItemStyle}>
+    <div className='SectionInfoProductItem'>
       <div
         className='SectionInfoProductItemNumber'
       >

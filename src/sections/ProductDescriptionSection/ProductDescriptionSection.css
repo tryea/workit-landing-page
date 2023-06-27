@@ -16,9 +16,30 @@
 
 .descriptionBottomCurve {
     position: absolute;
-    bottom: 0;
+    bottom: -9px;
     left: 0;
     z-index: 2;
     height: 7.9%;
     width: 100%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 769px) {
+
+    /* For tablets: */
+    .productDescriptionSection {
+        padding-top: 160px;
+        min-height: calc(60vh + 110px);
+    }
+
+    .descriptionWrapper {
+        flex-direction: column;
+        padding: 0 98px;
+    }
+
+    .descriptionBottomCurve {
+        bottom: 0;
+        height: 5vw;
+    }
+
+
 }

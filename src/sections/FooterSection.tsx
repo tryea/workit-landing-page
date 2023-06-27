@@ -2,7 +2,7 @@ import './FooterSection.css'
 
 const FooterSection = () => {
     return (
-        <header id="footer-section">
+        <footer id="footer-section">
             <div className='brand-name'>
                 <img src='/assets/images/logo-dark.svg' />
             </div>
@@ -12,7 +12,7 @@ const FooterSection = () => {
                 <img src='/assets/icons/icon-twitter.svg' className='social-media-icons' />
 
             </div>
-        </header>
+        </footer>
     )
 }
 

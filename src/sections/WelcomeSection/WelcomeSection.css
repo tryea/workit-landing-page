@@ -9,9 +9,23 @@
 
 .bottomCurve {
     position: absolute;
-    bottom: -14%;
+    bottom: -16%;
     left: 0;
     z-index: 2;
     height: 7.9%;
     width: 100%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* For tablets: */
+    #welcome-section {
+        max-height: 60vh;
+        position: relative;
+    }
+
+    .bottomCurve {
+        bottom: 0;
+        height: 5vw;
+    }
 }

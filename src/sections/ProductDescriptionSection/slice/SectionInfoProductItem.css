@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-
+    gap: 56px;
 }
 
 .SectionInfoProductItemNumberWrapper {
@@ -14,7 +14,6 @@
     /* Make it a circle */
     border-radius: 100%;
     border: 1px solid var(--davys-grey);
-    margin-bottom: 56px;
 }
 
 .SectionInfoProductItemNumber {
@@ -49,4 +48,33 @@
     font-weight: 400;
     text-align: center;
     color: var(--dark-purple);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 769px) {
+
+    /* For tablets: */
+    .SectionInfoProductItem {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .SectionInfoProductItemContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .SectionInfoProductItemContent p {
+        text-align: left;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .SectionInfoProductItemContent h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
 }

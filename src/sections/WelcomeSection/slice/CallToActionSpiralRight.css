@@ -10,3 +10,16 @@
     position: relative;
     right: -40px;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* For tablets: */
+    .call-to-action-spiral-right-container {
+        right: 0;
+        top: 193px;
+    }
+
+    .call-to-action-spiral-right {
+        right: -94px;
+    }
+}
