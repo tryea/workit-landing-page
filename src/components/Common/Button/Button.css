@@ -1,0 +1,39 @@
+.primary-button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--eucaplyptus);
+    color: var(--dark-purple);
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    width: 190px;
+    height: 61px;
+    margin: 0;
+}
+
+.primary-button:hover {
+    border: 1px solid var(--eucaplyptus);
+    color: var(--eucaplyptus);
+    background-color: var(--dark-purple);
+}
+
+.secondary-button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    background-color: var(--dark-purple);
+    color: var(--white);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    width: 140px;
+    height: 35px;
+    border-bottom: 3px solid var(--eucaplyptus);
+}
+
+.secondary-button:hover {
+    color: var(--eucaplyptus);
+}

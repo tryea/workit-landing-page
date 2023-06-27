@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
 :root {
-  font-family: Fraunces144ptSemiBold, ManropeRegular;
+  font-family: 'Fraunces', serif, 'Manrope', sans-serif;
   font-weight: 400;
 
   color-scheme: light;
   background-color: #FFFFFF;
+  --dark-purple: #24053E;
+  --white: #FFFFFF;
+  --ghost-white: #FCF8FF;
+  --eucaplyptus: #44FFA1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -11,12 +17,23 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --Heading-font-family: Fraunces144ptSemiBold;
-  --Body-font-family: ManropeRegular;
-  --dark-purple: #24053E;
-  --white: #FFFFFF;
-  --ghost-white: #FCF8FF;
-  --eucaplyptus: #44FFA1;
+  --Heading-font-family: 'Fraunces', serif;
+  --Heading-font-weight: 600;
+  --Heading-L-font-size: 80px;
+  --Heading-M-font-size: 56px;
+  --Heading-S-font-size: 32px;
+
+  --Body-font-family: 'Manrope', sans-serif;
+  --Body-font-weight: 400;
+  --Body-font-size: 32px;
+
+
+  /* Button Style */
+  --Button-font-family: 'Manrope', sans-serif;
+  --Button-font-weight: 700;
+  --Button-font-size: 18px;
+  --Button-background-color: var(--eucaplyptus);
+
   --primary-background-color: var(--dark-purple);
   --secondary-background-color: var(--ghost-white);
   --button-background-color: var(--eucaplyptus);

@@ -1,13 +1,14 @@
+import Button from '../components/Common/Button/Button'
 import './HeadingNavigationSection.css'
 
 const HeadingNavigationSection = () => {
     return (
         <header id="header-navigation">
-            <div className='logo-wrapper header-item'>
+            <div className='header-item'>
                 <img src='/assets/images/logo-light.svg' />
             </div>
-            <div className='cta-button header-item'>
-                <span className='cta-navigation'>Apply for access</span>
+            <div className='header-item'>
+                <Button type="Secondary" title="Apply for access" />
             </div>
         </header>
     )
