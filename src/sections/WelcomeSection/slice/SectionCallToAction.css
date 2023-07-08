@@ -1,16 +1,19 @@
 #section-call-to-action {
     display: flex;
-    flex: 1;
     color: var(--white);
     flex-direction: column;
-    margin-top: 54px;
+    margin-top: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .welcome-text-wrapper {
     display: flex;
-    gap: 15px;
+    gap: 0.5rem;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .text-underline::after {
@@ -25,10 +28,19 @@
 
 .heading-large {
     position: relative;
-    font-family: 'Fraunces';
+    font-family: 'Fraunces 144pt', serif;
+    font-style: normal;
+    font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+}
+
+.cta-button {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 769px) {
@@ -42,3 +54,29 @@
         font-weight: 400;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* For tablets: */
+    #section-call-to-action {}
+
+    .heading-large {
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    /* For desktop: */
+    #section-call-to-action {}
+
+    .heading-large {
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1441px) {}

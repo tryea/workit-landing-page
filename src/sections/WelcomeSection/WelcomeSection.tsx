@@ -13,9 +13,7 @@ const WelcomeSection = () => {
             <CallToActionSpiralLeft />
             <CallToActionSpiralRight />
             <CallToActionPhoneImage />
-            <div className='bottomCurve'>
-                <BottomCurveSVG color='#FCF8FF' />
-            </div>
+            <BottomCurveSVG className='bottomCurve' color='#FCF8FF' />
         </div>
     )
 }

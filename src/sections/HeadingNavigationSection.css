@@ -1,15 +1,19 @@
+/* Path: src/sections/HeadingNavigationSection.css */
+/* Compare this snippet from src/sections/WelcomeSection/WelcomeSection.css: */
+
+
 #header-navigation {
-    height: 100px;
-    max-width: 100vw;
     background-color: var(--primary-background-color);
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 150px;
+
+    width: 100vw;
+    display: flex;
+    padding: var(--padding-top-navigation) 1rem 0;
 }
 
 .header-item {
-    height: 100px;
+    height: var(--item-height-navigation);
     width: auto;
     display: flex;
     flex-direction: column;
@@ -20,10 +24,10 @@
 .cta-navigation {
     position: relative;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: var(--Body-font-family);
     color: var(--primary-text-color);
-    line-height: 36px;
+    line-height: 2.25rem;
     user-select: none;
 }
 
@@ -51,3 +55,63 @@
         height: 25px;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* For tablets: */
+    #header-navigation {
+        height: 60px;
+        min-width: 100vw;
+        max-width: 100vw;
+        padding: 37px 39px;
+    }
+
+    .header-item {
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    /* For desktop: */
+    #header-navigation {
+        height: 100px;
+        max-width: 100vw;
+        background-color: var(--primary-background-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 150px;
+    }
+
+    .header-item {
+        height: 100px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .cta-navigation {
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        font-family: var(--Body-font-family);
+        color: var(--primary-text-color);
+        line-height: 36px;
+        user-select: none;
+    }
+
+    .cta-navigation::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: var(--button-background-color);
+    }
+}
+
+@media only screen and (min-width: 1441px) {}

@@ -1,14 +1,13 @@
 .call-to-action-spiral-right-container {
     position: absolute;
-    top: 350px;
-    right: 0;
+    display: none;
     z-index: 2;
     overflow: hidden;
 }
 
 .call-to-action-spiral-right {
     position: relative;
-    right: -40px;
+    display: none;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -23,3 +22,22 @@
         right: -94px;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .call-to-action-spiral-right-container {
+        position: absolute;
+        top: 35vh;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .call-to-action-spiral-right {
+        position: relative;
+        right: -40px;
+    }
+}
+
+@media only screen and (min-width: 1441px) {}

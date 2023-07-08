@@ -1,17 +1,18 @@
 .hero-section {
     position: relative;
-    left: 15%;
-    top: 6%;
-    width: 75%;
-    height: 75%;
+    bottom: calc(-1 * 0.2 * calc(100vw - 2rem));
+    left: 1.25rem;
+    width: calc(100vw - 2rem);
     z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: visible;
 }
 
 .hero-section img {
-    transform: skewY(-6deg) skewX(-9deg);
-    width: 100%;
-    height: 100%;
+    width: 85.3333333%;
+    aspect-ratio: 320/184;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 769px) {
@@ -23,3 +24,25 @@
         top: 15%;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .hero-section {
+        position: relative;
+        left: 15%;
+        top: 6%;
+        width: 75%;
+        height: 75%;
+        z-index: 99;
+        overflow: visible;
+    }
+
+    .hero-section img {
+        transform: skewY(-6deg) skewX(-9deg);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1441px) {}

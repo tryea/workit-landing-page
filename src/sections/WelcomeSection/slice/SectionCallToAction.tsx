@@ -9,19 +9,10 @@ const SectionCallToAction = () => {
                 <h1 className="heading-large">Data</h1>
                 <h1 className='heading-large text-underline'>tailored</h1>
                 <h1 className="heading-large">to</h1>
-            </div>
-            <div className="welcome-text-wrapper">
                 <h1 className="heading-large">your</h1>
                 <h1 className="heading-large">needs.</h1>
             </div>
-            <div
-                style={{
-                    marginTop: '48px',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    flexDirection: 'row'
-                }}
-            >
+            <div className='cta-button' >
                 <Button title='Learn more' type='Primary' />
             </div>
         </div>
