@@ -10,7 +10,7 @@ type Props = {
 
 const SectionInfoProductItem = (props: Props) => {
 
-
+  
   return (
     <div className='SectionInfoProductItem'>
       <div

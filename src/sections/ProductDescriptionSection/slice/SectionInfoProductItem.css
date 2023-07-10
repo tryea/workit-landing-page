@@ -1,16 +1,44 @@
-.SectionInfoProductItem {
+.SectionInfoProductItem{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.SectionInfoProductItemContent{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    gap: 56px;
+    gap: 1rem;
+}
+
+.SectionInfoProductItemContent h3 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.SectionInfoProductItemContent p {
+    font-family: 'Manrope';
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-purple);
 }
 
 .SectionInfoProductItemNumberWrapper {
     display: flex;
-    width: 3em;
-    height: 3em;
+    width: 3rem;
+    aspect-ratio: 1/1;
     align-items: center;
     justify-content: center;
+
     /* Make it a circle */
     border-radius: 100%;
     border: 1px solid var(--davys-grey);
@@ -18,36 +46,15 @@
 
 .SectionInfoProductItemNumber {
     color: var(--dark-purple);
-    font-family: 'Fraunces';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     display: flex;
     justify-content: center;
-}
-
-.SectionInfoProductItemContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.SectionInfoProductItemContent h3 {
-    font-family: 'Fraunces';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: center;
-    margin-bottom: 28px;
-}
-
-.SectionInfoProductItemContent p {
-    font-family: 'Manrope';
-    font-size: 18px;
-    line-height: 32px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--dark-purple);
 }
 
 @media only screen and (min-width: 600px) and (max-width: 769px) {
