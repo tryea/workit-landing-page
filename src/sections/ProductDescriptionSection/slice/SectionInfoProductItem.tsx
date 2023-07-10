@@ -1,5 +1,3 @@
-import React from 'react'
-import { colors, typography } from '../../../util/styles'
 import './SectionInfoProductItem.css'
 
 type Props = {
@@ -10,7 +8,7 @@ type Props = {
 
 const SectionInfoProductItem = (props: Props) => {
 
-  
+
   return (
     <div className='SectionInfoProductItem'>
       <div
