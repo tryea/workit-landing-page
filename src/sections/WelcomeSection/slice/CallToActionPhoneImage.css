@@ -15,7 +15,7 @@
     aspect-ratio: 320/184;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 769px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
     /* For tablets: */
     .hero-section {

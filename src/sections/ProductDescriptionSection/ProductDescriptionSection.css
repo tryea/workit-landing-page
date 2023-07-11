@@ -39,6 +39,16 @@
     .descriptionBottomCurve {
         bottom: 0;
     }
+}
 
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+}
+
+@media screen and (min-width: 1441px) {
 
 }
