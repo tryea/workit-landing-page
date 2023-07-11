@@ -22,13 +22,10 @@
 
     /* For tablets: */
     #welcome-section {
-        max-height: 60vh;
-        position: relative;
+
     }
 
     .bottomCurve {
-        bottom: 0;
-        height: 5vw;
     }
 }
 

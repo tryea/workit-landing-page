@@ -43,14 +43,17 @@
     flex-direction: row;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 769px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
     /* For tablets: */
-    #section-call-to-action {}
+    #section-call-to-action {
+        margin-top: 4rem;
+        padding: 0 16.928447vw;
+    }
 
     .heading-large {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 3.75rem;
+        line-height: 3.75rem;
         font-weight: 400;
     }
 }
