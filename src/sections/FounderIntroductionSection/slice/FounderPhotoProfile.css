@@ -111,9 +111,113 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .founderPhotoProfileWrapper{
+        align-items: flex-start;
+    }
+    /* For tablets: */
+    .founderPhotoProfileWrapper img{
+        width: 40.783745%;
+        aspect-ratio: 1/1;
+    }
 
+    .founderQuote {
+        position: relative;
+        top: calc(-1 * 49.263345 / 100 * calc(40.783745 / 100 * 100vw)); /* 130/281 */
+        width: 65.647482%;
+        left: calc(100% - 65.647482%);
+        background-color: var(--dark-purple);
+        color: var(--white);
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .founderQuote h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .founderQuote p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .founderQuoteSpiralLeft {
+        position: absolute;
+        display: block;
+        width: 22.526042vw;
+        aspect-ratio: 173/137;
+        bottom: calc(-1 * calc(137 / 173 * 22.526042vw) / 3); /* 130/281 */
+        right: 5%;
+        z-index: 2;
+    }
+
+    .founderQuoteSpiralLeft img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .founderQuote .primary-button{
+        width: fit-content
+    }
 }
 
 @media screen and (min-width: 1441px) {
+    .founderPhotoProfileWrapper{
+        align-items: flex-start;
+    }
+    /* For tablets: */
+    .founderPhotoProfileWrapper img{
+        width: 40.783745%;
+        aspect-ratio: 1/1;
+    }
 
+    .founderQuote {
+        position: relative;
+        top: calc(-1 * 42.263345 / 100 * calc(40.783745 / 100 * 100vw)); /* 130/281 */
+        width: 74.600871%; /* 514/689 */
+        left: calc(100% - 74.600871%);
+        background-color: var(--dark-purple);
+        color: var(--white);
+        padding: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .founderQuote h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .founderQuote p {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        text-align: left;
+    }
+
+    .founderQuoteSpiralLeft {
+        position: absolute;
+        display: block;
+        width: 22.526042vw;
+        aspect-ratio: 173/137;
+        bottom: calc(-1 * calc(137 / 173 * 22.526042vw) / 3); /* 130/281 */
+        right: 5%;
+        z-index: 2;
+    }
+
+    .founderQuoteSpiralLeft img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }

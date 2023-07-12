@@ -31,19 +31,17 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .hero-section {
-        position: relative;
-        left: 15%;
-        top: 6%;
-        width: 75%;
-        height: 75%;
-        z-index: 99;
-        overflow: visible;
+        bottom: calc(-1 * 0.2 * calc(100vw - 16.928447vw));
+        left: 1.25rem;
+        width: calc(100vw - 16.928447vw);
+        display: flex;
+        align-self: center;
     }
 
     .hero-section img {
-        transform: skewY(-6deg) skewX(-9deg);
-        width: 100%;
-        height: 100%;
+        /* transform: skewY(-6deg) skewX(-9deg); */
+        /* width: 100%;
+        height: 100%; */
     }
 }
 

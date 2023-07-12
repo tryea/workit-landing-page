@@ -61,24 +61,34 @@
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     /* For tablets: */
-    #section-call-to-action {}
+    #section-call-to-action {
+        margin-top: 4rem;
+        align-items: center;
+    }
+
+    .welcome-text-wrapper{
+        width: 33rem;
+    }
 
     .heading-large {
-        font-size: 60px;
-        line-height: 60px;
-        font-weight: 400;
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 600;
     }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
 
     /* For desktop: */
-    #section-call-to-action {}
+    #section-call-to-action {
+        margin-top: 4rem;
+        padding: 0 27.986111vw; /* 403/1440 */
+    }
 
     .heading-large {
-        font-size: 80px;
-        line-height: 80px;
-        font-weight: 400;
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 600;
     }
 }
 

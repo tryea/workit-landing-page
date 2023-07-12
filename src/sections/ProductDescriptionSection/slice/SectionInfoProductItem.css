@@ -86,6 +86,36 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
 
+    .SectionInfoProductItemNumberWrapper {
+        width: 4rem;
+        aspect-ratio: 1/1;
+    }
+
+    .SectionInfoProductItemNumber{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+    }
+
+    .SectionInfoProductItem {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .SectionInfoProductItemContent {
+        align-items: center;
+        gap: 1.75rem;
+    }
+
+    .SectionInfoProductItemContent p {
+        text-align: center;
+    }
+
+    .SectionInfoProductItemContent h3 {
+        font-weight: 600;
+    }
 }
 
 @media screen and (min-width: 1441px) {

@@ -46,9 +46,34 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .productDescriptionSection {
+        padding-top: calc(4rem + calc(0.2 * calc(100vw - 16.928447vw)));
+        padding-bottom: 10rem;
+    }
 
+    .descriptionWrapper {
+        flex-direction: row;
+        padding: 0 10rem;
+        
+    }
+
+    .descriptionBottomCurve {
+        bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1441px) {
+    .productDescriptionSection {
+        padding-top: calc(4rem + calc(0.2 * calc(100vw - 16.928447vw)));
+        padding-bottom: 10rem;
+    }
 
+    .descriptionWrapper {
+        flex-direction: row;
+        padding: 0 10rem;
+    }
+
+    .descriptionBottomCurve {
+        bottom: 0;
+    }
 }
