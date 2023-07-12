@@ -1,6 +1,5 @@
 
 import { colors } from '../util/styles'
-import LogoDark from '/assets/images/logo-dark.svg'
 import LogoLight from '/assets/images/logo-light.svg'
 
 const TopNavigationBar = () => {

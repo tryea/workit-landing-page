@@ -1,5 +1,4 @@
 import Button from '../../../components/Common/Button/Button'
-import { colors } from '../../../util/styles'
 import './SectionCallToAction.css'
 
 const SectionCallToAction = () => {
